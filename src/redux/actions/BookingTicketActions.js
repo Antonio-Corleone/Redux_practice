@@ -13,14 +13,3 @@ export const huyGheAction = (soGhe) => {
     soGhe
   }
 }
-/**
- * dispatch(datGheAction(ghe))
- * ==> action = {
- *        type: DAT_GHE,
- *        ghe: {
- *          soGhe: 'A1',
- *          gia: 75000,
- *          daDat: false
- *        }
- *     }
- */
